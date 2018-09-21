@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7AA2ABAC215539480057C6AD /* boost in Resources */ = {isa = PBXBuildFile; fileRef = 7AA2ABAB215539480057C6AD /* boost */; };
 		7AA37136215538220015AF41 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AA37135215538220015AF41 /* AppDelegate.m */; };
 		7AA37139215538220015AF41 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AA37138215538220015AF41 /* ViewController.m */; };
 		7AA3713B215538230015AF41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AA3713A215538230015AF41 /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7AA2ABAB215539480057C6AD /* boost */ = {isa = PBXFileReference; lastKnownFileType = folder; name = boost; path = boost_1_68_0/boost; sourceTree = "<group>"; };
 		7AA37131215538220015AF41 /* ManualBoost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ManualBoost.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AA37134215538220015AF41 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7AA37135215538220015AF41 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 		7AA37128215538220015AF41 = {
 			isa = PBXGroup;
 			children = (
+				7AA2ABAB215539480057C6AD /* boost */,
 				7AA37133215538220015AF41 /* ManualBoost */,
 				7AA3714A215538230015AF41 /* ManualBoostTests */,
 				7AA37155215538230015AF41 /* ManualBoostUITests */,
@@ -234,6 +237,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AA2ABAC215539480057C6AD /* boost in Resources */,
 				7AA3713B215538230015AF41 /* Assets.xcassets in Resources */,
 				7AA3713E215538230015AF41 /* Main.storyboard in Resources */,
 			);
