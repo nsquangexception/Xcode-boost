@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7AA37136215538220015AF41 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AA37135215538220015AF41 /* AppDelegate.m */; };
+		7AA37139215538220015AF41 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AA37138215538220015AF41 /* ViewController.m */; };
+		7AA3713B215538230015AF41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AA3713A215538230015AF41 /* Assets.xcassets */; };
+		7AA3713E215538230015AF41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AA3713C215538230015AF41 /* Main.storyboard */; };
+		7AA37141215538230015AF41 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AA37140215538230015AF41 /* main.m */; };
+		7AA3714C215538230015AF41 /* ManualBoostTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AA3714B215538230015AF41 /* ManualBoostTests.m */; };
+		7AA37157215538230015AF41 /* ManualBoostUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AA37156215538230015AF41 /* ManualBoostUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7AA37148215538230015AF41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7AA37129215538220015AF41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7AA37130215538220015AF41;
+			remoteInfo = ManualBoost;
+		};
+		7AA37153215538230015AF41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7AA37129215538220015AF41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7AA37130215538220015AF41;
+			remoteInfo = ManualBoost;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7AA37131215538220015AF41 /* ManualBoost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ManualBoost.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AA37134215538220015AF41 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7AA37135215538220015AF41 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7AA37137215538220015AF41 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7AA37138215538220015AF41 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7AA3713A215538230015AF41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7AA3713D215538230015AF41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7AA3713F215538230015AF41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AA37140215538230015AF41 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7AA37142215538230015AF41 /* ManualBoost.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ManualBoost.entitlements; sourceTree = "<group>"; };
+		7AA37147215538230015AF41 /* ManualBoostTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ManualBoostTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AA3714B215538230015AF41 /* ManualBoostTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ManualBoostTests.m; sourceTree = "<group>"; };
+		7AA3714D215538230015AF41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AA37152215538230015AF41 /* ManualBoostUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ManualBoostUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AA37156215538230015AF41 /* ManualBoostUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ManualBoostUITests.m; sourceTree = "<group>"; };
+		7AA37158215538230015AF41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7AA3712E215538220015AF41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AA37144215538230015AF41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AA3714F215538230015AF41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7AA37128215538220015AF41 = {
+			isa = PBXGroup;
+			children = (
+				7AA37133215538220015AF41 /* ManualBoost */,
+				7AA3714A215538230015AF41 /* ManualBoostTests */,
+				7AA37155215538230015AF41 /* ManualBoostUITests */,
+				7AA37132215538220015AF41 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7AA37132215538220015AF41 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7AA37131215538220015AF41 /* ManualBoost.app */,
+				7AA37147215538230015AF41 /* ManualBoostTests.xctest */,
+				7AA37152215538230015AF41 /* ManualBoostUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7AA37133215538220015AF41 /* ManualBoost */ = {
+			isa = PBXGroup;
+			children = (
+				7AA37134215538220015AF41 /* AppDelegate.h */,
+				7AA37135215538220015AF41 /* AppDelegate.m */,
+				7AA37137215538220015AF41 /* ViewController.h */,
+				7AA37138215538220015AF41 /* ViewController.m */,
+				7AA3713A215538230015AF41 /* Assets.xcassets */,
+				7AA3713C215538230015AF41 /* Main.storyboard */,
+				7AA3713F215538230015AF41 /* Info.plist */,
+				7AA37140215538230015AF41 /* main.m */,
+				7AA37142215538230015AF41 /* ManualBoost.entitlements */,
+			);
+			path = ManualBoost;
+			sourceTree = "<group>";
+		};
+		7AA3714A215538230015AF41 /* ManualBoostTests */ = {
+			isa = PBXGroup;
+			children = (
+				7AA3714B215538230015AF41 /* ManualBoostTests.m */,
+				7AA3714D215538230015AF41 /* Info.plist */,
+			);
+			path = ManualBoostTests;
+			sourceTree = "<group>";
+		};
+		7AA37155215538230015AF41 /* ManualBoostUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7AA37156215538230015AF41 /* ManualBoostUITests.m */,
+				7AA37158215538230015AF41 /* Info.plist */,
+			);
+			path = ManualBoostUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7AA37130215538220015AF41 /* ManualBoost */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AA3715B215538230015AF41 /* Build configuration list for PBXNativeTarget "ManualBoost" */;
+			buildPhases = (
+				7AA3712D215538220015AF41 /* Sources */,
+				7AA3712E215538220015AF41 /* Frameworks */,
+				7AA3712F215538220015AF41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ManualBoost;
+			productName = ManualBoost;
+			productReference = 7AA37131215538220015AF41 /* ManualBoost.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7AA37146215538230015AF41 /* ManualBoostTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AA3715E215538230015AF41 /* Build configuration list for PBXNativeTarget "ManualBoostTests" */;
+			buildPhases = (
+				7AA37143215538230015AF41 /* Sources */,
+				7AA37144215538230015AF41 /* Frameworks */,
+				7AA37145215538230015AF41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7AA37149215538230015AF41 /* PBXTargetDependency */,
+			);
+			name = ManualBoostTests;
+			productName = ManualBoostTests;
+			productReference = 7AA37147215538230015AF41 /* ManualBoostTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7AA37151215538230015AF41 /* ManualBoostUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AA37161215538230015AF41 /* Build configuration list for PBXNativeTarget "ManualBoostUITests" */;
+			buildPhases = (
+				7AA3714E215538230015AF41 /* Sources */,
+				7AA3714F215538230015AF41 /* Frameworks */,
+				7AA37150215538230015AF41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7AA37154215538230015AF41 /* PBXTargetDependency */,
+			);
+			name = ManualBoostUITests;
+			productName = ManualBoostUITests;
+			productReference = 7AA37152215538230015AF41 /* ManualBoostUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7AA37129215538220015AF41 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Quang Hà";
+				TargetAttributes = {
+					7AA37130215538220015AF41 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					7AA37146215538230015AF41 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 7AA37130215538220015AF41;
+					};
+					7AA37151215538230015AF41 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 7AA37130215538220015AF41;
+					};
+				};
+			};
+			buildConfigurationList = 7AA3712C215538220015AF41 /* Build configuration list for PBXProject "ManualBoost" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7AA37128215538220015AF41;
+			productRefGroup = 7AA37132215538220015AF41 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7AA37130215538220015AF41 /* ManualBoost */,
+				7AA37146215538230015AF41 /* ManualBoostTests */,
+				7AA37151215538230015AF41 /* ManualBoostUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7AA3712F215538220015AF41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AA3713B215538230015AF41 /* Assets.xcassets in Resources */,
+				7AA3713E215538230015AF41 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AA37145215538230015AF41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AA37150215538230015AF41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7AA3712D215538220015AF41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AA37139215538220015AF41 /* ViewController.m in Sources */,
+				7AA37141215538230015AF41 /* main.m in Sources */,
+				7AA37136215538220015AF41 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AA37143215538230015AF41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AA3714C215538230015AF41 /* ManualBoostTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AA3714E215538230015AF41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AA37157215538230015AF41 /* ManualBoostUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7AA37149215538230015AF41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7AA37130215538220015AF41 /* ManualBoost */;
+			targetProxy = 7AA37148215538230015AF41 /* PBXContainerItemProxy */;
+		};
+		7AA37154215538230015AF41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7AA37130215538220015AF41 /* ManualBoost */;
+			targetProxy = 7AA37153215538230015AF41 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7AA3713C215538230015AF41 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7AA3713D215538230015AF41 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7AA37159215538230015AF41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7AA3715A215538230015AF41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7AA3715C215538230015AF41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ManualBoost/ManualBoost.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ManualBoost/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nsquangexception.ManualBoost;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7AA3715D215538230015AF41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ManualBoost/ManualBoost.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ManualBoost/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nsquangexception.ManualBoost;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7AA3715F215538230015AF41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ManualBoostTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nsquangexception.ManualBoostTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ManualBoost.app/Contents/MacOS/ManualBoost";
+			};
+			name = Debug;
+		};
+		7AA37160215538230015AF41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ManualBoostTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nsquangexception.ManualBoostTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ManualBoost.app/Contents/MacOS/ManualBoost";
+			};
+			name = Release;
+		};
+		7AA37162215538230015AF41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ManualBoostUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nsquangexception.ManualBoostUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ManualBoost;
+			};
+			name = Debug;
+		};
+		7AA37163215538230015AF41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ManualBoostUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nsquangexception.ManualBoostUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ManualBoost;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7AA3712C215538220015AF41 /* Build configuration list for PBXProject "ManualBoost" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AA37159215538230015AF41 /* Debug */,
+				7AA3715A215538230015AF41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AA3715B215538230015AF41 /* Build configuration list for PBXNativeTarget "ManualBoost" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AA3715C215538230015AF41 /* Debug */,
+				7AA3715D215538230015AF41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AA3715E215538230015AF41 /* Build configuration list for PBXNativeTarget "ManualBoostTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AA3715F215538230015AF41 /* Debug */,
+				7AA37160215538230015AF41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AA37161215538230015AF41 /* Build configuration list for PBXNativeTarget "ManualBoostUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AA37162215538230015AF41 /* Debug */,
+				7AA37163215538230015AF41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7AA37129215538220015AF41 /* Project object */;
+}
